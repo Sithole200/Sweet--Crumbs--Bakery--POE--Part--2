@@ -1,4 +1,3 @@
-Sweet-Crumbs-Bakery-POE-Part 2
 Sweet Crumbs Bakery Website
 Project Description
 
@@ -202,5 +201,4 @@ https://www.google.com/maps
 Unsplash, 2026. Cakes and pastries. Available at:
 https://unsplash.com/s/photos/cakes-and-pastries
 [Accessed 15 September 2026].
-
 

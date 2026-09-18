@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Checkout - Sweet Crumbs Bakery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Sweet Crumbs Bakery</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about us.html">About Us</a>
+        <a href="products.html">Products</a>
+        <a href="cart.html">Cart</a>
+        <a href="checkout.html" class="active">Checkout</a>
+        <a href="enquiry.html">Enquiry</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+
+<main class="checkout-page">
+
+    <section class="checkout-intro">
+
+        <h2>Checkout</h2>
+
+        <p>
+            You are almost there! Please provide your details below
+            to complete your Sweet Crumbs Bakery order.
+        </p>
+
+    </section>
+
+
+    <section class="checkout-container">
+
+        <!-- CUSTOMER INFORMATION -->
+
+        <div class="checkout-form">
+
+            <h2>Customer Information</h2>
+
+            <form>
+
+                <label for="fullname">Full Name</label>
+                <input type="text"
+                       id="fullname"
+                       name="fullname"
+                       placeholder="Enter your full name">
+
+                <label for="email">Email Address</label>
+                <input type="email"
+                       id="email"
+                       name="email"
+                       placeholder="Enter your email address">
+
+                <label for="phone">Phone Number</label>
+                <input type="tel"
+                       id="phone"
+                       name="phone"
+                       placeholder="Enter your phone number">
+
+                <label for="address">Delivery Address</label>
+                <textarea id="address"
+                          name="address"
+                          rows="4"
+                          placeholder="Enter your delivery address"></textarea>
+
+                <label for="delivery">Delivery Method</label>
+
+                <select id="delivery" name="delivery">
+
+                    <option>Collection</option>
+                    <option>Local Delivery</option>
+
+                </select>
+
+                <label for="notes">Order Notes</label>
+
+                <textarea id="notes"
+                          name="notes"
+                          rows="4"
+                          placeholder="Any special instructions for your order?"></textarea>
+
+            </form>
+
+        </div>
+
+
+        <!-- ORDER SUMMARY -->
+
+        <div class="checkout-summary">
+
+            <h2>Order Summary</h2>
+
+            <div class="checkout-item">
+                <span>Birthday Cake × 1</span>
+                <span>R450.00</span>
+            </div>
+
+            <div class="checkout-item">
+                <span>Wedding Cake × 1</span>
+                <span>R1,200.00</span>
+            </div>
+
+            <div class="checkout-item">
+                <span>Custom Cake × 1</span>
+                <span>R500.00</span>
+            </div>
+
+            <div class="checkout-item">
+                <span>Vanilla Cupcakes × 2</span>
+                <span>R50.00</span>
+            </div>
+
+            <div class="checkout-line"></div>
+
+            <div class="checkout-item">
+                <span>Subtotal</span>
+                <span>R2,200.00</span>
+            </div>
+
+            <div class="checkout-item">
+                <span>Delivery</span>
+                <span>R0.00</span>
+            </div>
+
+            <div class="checkout-total">
+                <span>Total</span>
+                <span>R2,200.00</span>
+            </div>
+
+            <input type="submit"
+                   value="Place Order"
+                   class="place-order-button">
+                   <a href="enquiry.html" class="place-order-button">Place Order</a>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <p>&copy; 2026 Sweet Crumbs Bakery. All rights reserved.</p>
+
+</footer>
+
+</body>
+</html>
